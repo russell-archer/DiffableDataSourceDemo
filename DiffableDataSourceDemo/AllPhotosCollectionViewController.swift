@@ -58,8 +58,6 @@ extension AllPhotosCollectionViewController: UICollectionViewDelegateFlowLayout 
     }
 }
 
-// MARK:-   
-
 extension AllPhotosCollectionViewController {
   
     func configureDataSource() -> UICollectionViewDiffableDataSource<Section, UIImage> {
